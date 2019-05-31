@@ -1,0 +1,31 @@
+@import "variables";
+@import "header";
+@import "productsPicker";
+@import "yourDayMenu";
+@import "buttons";
+@import "form";
+@import "about";
+
+html {
+  height: 100%;
+  background-color: var(--main-bg-color);
+  font-family: var(--regular-font), sans-serif;
+
+  body {
+    min-height: 100%;
+    max-width: 1520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 0 auto;
+
+    div#routerContainer {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+  }
+}
+
+
+

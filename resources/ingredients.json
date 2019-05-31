@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Семга",
+    "caloriesNumber": "208"
+  },
+  {
+    "id": 2,
+    "name": "Соль",
+    "caloriesNumber": "0"
+  },
+  {
+    "id": 3,
+    "name": "Молоко 1,5%",
+    "caloriesNumber": "45"
+  },
+  {
+    "id": 4,
+    "name": "Кефир 1%",
+    "caloriesNumber": "40"
+  },
+  {
+    "id": 5,
+    "name": "Сахарозаменитель",
+    "caloriesNumber": "347"
+  },
+  {
+    "id": 6,
+    "name": "Яйцо куриное",
+    "caloriesNumber": "157"
+  },
+  {
+    "id": 7,
+    "name": "Лимонная кислота",
+    "caloriesNumber": "250"
+  }
+]

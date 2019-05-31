@@ -1,0 +1,14 @@
+{
+  "name": "Lesson_14",
+  "version": "0.0.1",
+  "skripts": {
+    "scss": "gulp sass",
+    "scss:watch": "gulp sass:watch"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.11.0"
+  }
+}

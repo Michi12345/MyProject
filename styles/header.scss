@@ -1,0 +1,59 @@
+body > header {
+  display: flex;
+  justify-content: space-between;
+  width: 855px;
+  background-color: transparent;
+  //padding: 0 var(--main-content-padding);
+  box-sizing: border-box;
+  z-index: 2;
+
+  a {
+    text-decoration: none;
+    margin: 20px 0;
+    //margin: 0 auto 0 0;
+  }
+
+  .logo {
+    width: 145px;
+    height: 65px;
+    margin-left: 0;
+  }
+}
+
+nav {
+  align-self: center;
+  font-family: var(--regular-font);
+  font-weight: 500;
+  font-size: 1.2em;
+  ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: center;
+
+    li {
+
+      :hover {
+        color: var(--control-btn-grad-color);
+      }
+      &:hover {
+        list-style-type: disc;
+        color: var(--control-btn-grad-color);
+      }
+
+      a {
+        color: var(--main-text-color);
+      }
+
+      + li {
+        margin-left: 40px;
+      }
+    }
+  }
+}
+
+img {
+  //width: 40px;
+  //margin-left: 50px;
+}

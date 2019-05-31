@@ -1,0 +1,87 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>My Project</title>-->
+    <!--<link rel="stylesheet" href="css/style.css">-->
+<!--</head>-->
+<!--<body>-->
+<!--<header>-->
+    <!--<a href="about.html"><img src="assets/logo/logo2.svg" alt="" class="logo"></a>-->
+    <!--<nav>-->
+        <!--<ul>-->
+            <!--<li><a href="about.html">О нас</a></li>-->
+            <!--<li><a href="productsPicker.html">Выбор продуктов</a></li>-->
+            <!--<li><a href="registration.html">Регистрация</a></li>-->
+        <!--</ul>-->
+    <!--</nav>-->
+<!--</header>-->
+<div class="layout-for-registration">
+    <form action="get" class="registration">
+        <header><h1>Введите данные</h1></header>
+        <div class="title-right">
+            <div>
+                <label for="name">Имя</label>
+                <input type="text" id="name" autocomplete="off" required>
+            </div>
+        </div>
+        <div class="title-right">
+            <div>
+                <label for="pass">Пароль</label>
+                <input type="password" id="pass" autocomplete="off" required>
+            </div>
+        </div>
+        <div class="title-right">
+            <div>
+                <fieldset>
+                    <div class="gender">
+                        <input type="radio" name="sex" id="male">
+                        <label for="male" class="for-mobile-style">Мужской</label>
+                    </div>
+                    <div class="gender">
+                        <input type="radio" name="sex" checked="checked" id="female">
+                        <label for="female" class="for-mobile-style">Женский</label>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        <div class="title-right">
+            <div class="b-day">
+                <label for="bDay" class="birth-day">Дата Рождения</label>
+                <input type="date" id="bDay" required>
+            </div>
+        </div>
+        <div class="title-right">
+            <div>
+                <label for="height">Рост</label>
+                <input type="number" id="height" class="special-width">
+            </div>
+            <div>
+                <label for="heightMeasure"></label>
+                <select name="your-height" size="1" id="heightMeasure">
+                    <option value="cm">см</option>
+                    <option value="m">м</option>
+                </select>
+            </div>
+        </div>
+        <div class="title-right">
+            <div>
+                <label for="weight">Вес</label>
+                <input type="number" id="weight" class="special-width">
+            </div>
+            <div>
+                <label for="weightMeasure"></label>
+                <select name="your-weight" size="1" id="weightMeasure">
+                    <option value="kg">кг</option>
+                    <option value="lb">фунтов</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <button class="btn"
+            ><a href="#about" >Отправить</a></button>
+        </div>
+    </form>
+</div>
+<!--</body>-->
+<!--</html>-->

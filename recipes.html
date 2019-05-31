@@ -1,0 +1,62 @@
+<div class="" id="recipes">
+    <form class="registration title-right">
+        <header><h1>Введите данные</h1></header>
+        <div class="">
+            <div>
+                <label for="name">Название рецепта</label>
+                <input type="text" id="name" name="recipeName" autocomplete="off" required>
+            </div>
+        </div>
+        <div class="available-ingredients">
+            <div>
+                <!--<label for="ingredients-list">Выберите ингредиенты</label>-->
+
+
+
+                <!--<select id="ingredients-list" name="ingredients" multiple>-->
+                    <!--<optgroup label="Meet">-->
+                        <!--<option value="beef">Говядина</option>-->
+                        <!--<option value="mutton">Баранина</option>-->
+                        <!--<option value="chicken">Курица</option>-->
+                        <!--<option value="turkey">Индейка</option>-->
+                    <!--</optgroup>-->
+                    <!--<optgroup label="Fish">-->
+                        <!--<option value="tuna">Тунец</option>-->
+                        <!--<option value="mackerel">Скумбрия</option>-->
+                    <!--</optgroup>-->
+                <!--</select>-->
+            </div>
+        </div>
+        <div class="">
+            <div>
+                <label for="img">Выберите изображение</label>
+                <input type="text" id="img" name="recipeImage" autocomplete="off">
+            </div>
+        </div>
+        <div class="">
+            <div>
+                <label for="short">Краткое описание</label>
+                <input type="text" id="short" name="shortRecipe" autocomplete="off">
+            </div>
+        </div>
+        <div class="">
+            <div>
+                <label for="full">Полное описание</label>
+                <input type="text" id="full" name="fullDescription" autocomplete="off" required>
+            </div>
+        </div>
+        <div class="">
+            <div>
+                <label for="type">Выберите тип блюда</label>
+                <select id="type" name="recipeTypes" required>
+                    <option value="breakfast" selected>Завтрак</option>
+                    <option value="dinner">Обед</option>
+                    <option value="supper">Ужин</option>
+                </select>
+            </div>
+        </div>
+        <button type="submit" class="btn">Добавить</button>
+    </form>
+    <ul>
+    </ul>
+</div>

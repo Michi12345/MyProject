@@ -1,0 +1,139 @@
+body {
+  align-items: center;
+  justify-content: center;
+}
+
+.layout-for-registration {
+  display: flex;
+  flex-direction: column;
+  background-size: contain;
+  background: url("../assets/layout/avocado.jpg") no-repeat left center;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  overflow: auto;
+
+  .registration {
+    transform: translateY(120px);
+  }
+
+}
+
+.registration {
+  display: flex;
+  flex-direction: column;
+  height: 515px;
+  width: 370px;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--main-bg-color);
+  border: 1px solid var(--control-bg-color);
+  border-radius: 10px;
+  color: var(--main-text-color);
+  margin: 10px 15px;
+  box-shadow: 0 7px 20px 2px #c3c3c3;
+  font-family: var(--regular-font);
+  font-size: 1.3em;
+  font-weight: 500;
+  padding: 6px 20px;
+
+  header {
+    font-family: var(--bold-font);
+    font-size: 1.2em;
+    font-weight: 700;
+    color: var(--main-text-color);
+
+    h1 {
+      margin: 10px 0;
+    }
+  }
+
+  .title-right {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 10px;
+  }
+
+  input:not([type=radio]):not([class=special-width]), fieldset {
+    width: 250px;
+  }
+
+  .special-width {
+    width: 165px;
+  }
+
+  input {
+    font-family: var(--regular-font);
+    font-size: 1em;
+    font-weight: 500;
+  }
+
+  input:not([type=radio]), select, fieldset {
+    background: var(--control-bg-color);
+    border: 1px solid var(--control-bg-color);
+    border-radius: 15px;
+    padding: 6px 15px;
+    box-sizing: border-box;
+    outline: none;
+  }
+
+  input[type="date"] {
+    font-family: var(--regular-font);
+    font-size: 0.9em;
+    font-weight: 500;
+  }
+
+  input[type="date"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+  input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url(../assets/icons/calendar.svg) no-repeat;
+    width: 15px;
+    height: 15px;
+    color: rgba(0, 0, 0, 0);
+    opacity: 100;
+  }
+
+  input[type=radio] {
+    margin: 10px;
+  }
+
+  .available-ingredients input.special-input{
+    width: 25px;
+  }
+
+  .b-day {
+    display: flex;
+    align-items: center;
+  }
+
+  .birth-day {
+    display: inline-flex;
+    word-break: break-word;
+    width: 95px;
+    text-align: center;
+    margin: 0;
+  }
+
+  select {
+    width: 80px;
+    text-align-last: center;
+    margin-left: 5px;
+    font-family: var(--regular-font);
+    font-size: 0.8em;
+    font-weight: 500;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: var(--regular-font);
+    font-size: 1em;
+    font-weight: 500;
+    color: var(--control-text-color);
+  }
+}
